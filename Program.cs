@@ -255,7 +255,7 @@ class Program
         if (Administrator.TipuriAbonamente == null || Administrator.TipuriAbonamente.Count == 0)
         {
             Console.WriteLine("Nu exista tipuri de abonamente definite.");
-            return null; // 2. Returnam null, nu -1, pentru ca tipul funcției este o clasă
+            return null;
         }
 
         int nr = 1;
@@ -660,4 +660,5 @@ class Program
     }
 }
     
+
 
